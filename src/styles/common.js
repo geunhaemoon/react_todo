@@ -6,6 +6,19 @@ export const GSCommon = css`
         color: #333;
     }
 
+    *::webkit-scrollbar {
+        border: none;
+        width: 5px;
+    }
+
+    *::-webkit-scrollbar-thumb{
+        border-radius: 5px;
+        background-color: #dbdbdb;
+    }
+    
+
+
+
     html{
         /* background-color: #bbD2BD; */
         /* background-color: #38f3; */
